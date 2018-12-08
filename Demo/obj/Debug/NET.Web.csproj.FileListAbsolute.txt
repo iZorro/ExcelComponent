@@ -1,0 +1,9 @@
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Web\bin\SalsNET.Web.dll
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Web\bin\SalsNET.Web.pdb
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Web\bin\ExcelComponent.dll
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Web\bin\ExcelComponent.pdb
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Web\obj\Debug\NET.Web.csprojAssemblyReference.cache
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Web\obj\Debug\NET.Web.csproj.CoreCompileInputs.cache
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Web\obj\Debug\NET.Web.csproj.CopyComplete
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Web\obj\Debug\SalsNET.Web.dll
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Web\obj\Debug\SalsNET.Web.pdb

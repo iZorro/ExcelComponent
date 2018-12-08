@@ -1,0 +1,10 @@
+F:\project\SalsNET.Common\SalsNET.Common\bin\Debug\SalsNET.Common.dll
+F:\project\SalsNET.Common\SalsNET.Common\bin\Debug\SalsNET.Common.pdb
+F:\project\SalsNET.Common\SalsNET.Common\obj\Debug\SalsNET.Common.dll
+F:\project\SalsNET.Common\SalsNET.Common\obj\Debug\SalsNET.Common.pdb
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Common\bin\Debug\SalsNET.Common.dll
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Common\bin\Debug\SalsNET.Common.pdb
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Common\obj\Debug\SalsNET.Common.csprojAssemblyReference.cache
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Common\obj\Debug\SalsNET.Common.csproj.CoreCompileInputs.cache
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Common\obj\Debug\SalsNET.Common.dll
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Common\obj\Debug\SalsNET.Common.pdb

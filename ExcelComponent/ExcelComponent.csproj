@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{127C72B1-DAA2-4067-B8E4-347729599606}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExcelComponent</RootNamespace>
+    <AssemblyName>ExcelComponent</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NET35</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Excel\BIFF8.cs" />
+    <Compile Include="Excel\ByteUtil\Bits.cs" />
+    <Compile Include="Excel\ByteUtil\Bytes.cs" />
+    <Compile Include="Excel\CachedBlockRow.cs" />
+    <Compile Include="Excel\Cell.cs" />
+    <Compile Include="Excel\CellCoordinate.cs" />
+    <Compile Include="Excel\Cells.cs" />
+    <Compile Include="Excel\CellTypes.cs" />
+    <Compile Include="Excel\CharacterSets.cs" />
+    <Compile Include="Excel\Color.cs" />
+    <Compile Include="Excel\Colors.cs" />
+    <Compile Include="Excel\ColumnInfo.cs" />
+    <Compile Include="Excel\DataBand\DataBand.cs" />
+    <Compile Include="Excel\EscapementTypes.cs" />
+    <Compile Include="Excel\Font.cs" />
+    <Compile Include="Excel\FontFamilies.cs" />
+    <Compile Include="Excel\Fonts.cs" />
+    <Compile Include="Excel\FontWeight.cs" />
+    <Compile Include="Excel\Format.cs" />
+    <Compile Include="Excel\Formats.cs" />
+    <Compile Include="Excel\FormulaRecord.cs" />
+    <Compile Include="Excel\HorizontalAlignments.cs" />
+    <Compile Include="Excel\IXFTarget.cs" />
+    <Compile Include="Excel\LineStyle.cs" />
+    <Compile Include="Excel\MergeArea.cs" />
+    <Compile Include="Excel\Ole2\Directory.cs" />
+    <Compile Include="Excel\Ole2\Header.cs" />
+    <Compile Include="Excel\Ole2\Metadata\DocumentSummaryInformationSection.cs" />
+    <Compile Include="Excel\Ole2\Metadata\Header.cs" />
+    <Compile Include="Excel\Ole2\Metadata\MetadataStream.cs" />
+    <Compile Include="Excel\Ole2\Metadata\OriginOperatingSystems.cs" />
+    <Compile Include="Excel\Ole2\Metadata\OriginOperatingSystemVersions.cs" />
+    <Compile Include="Excel\Ole2\Metadata\Property.cs" />
+    <Compile Include="Excel\Ole2\Metadata\PropertyList.cs" />
+    <Compile Include="Excel\Ole2\Metadata\Section.cs" />
+    <Compile Include="Excel\Ole2\Metadata\SectionList.cs" />
+    <Compile Include="Excel\Ole2\Metadata\SummaryInformationSection.cs" />
+    <Compile Include="Excel\Ole2\Msat.cs" />
+    <Compile Include="Excel\Ole2\Ole2Document.cs" />
+    <Compile Include="Excel\Ole2\Sat.cs" />
+    <Compile Include="Excel\Ole2\Ssat.cs" />
+    <Compile Include="Excel\Ole2\Stream.cs" />
+    <Compile Include="Excel\Ole2\Streams.cs" />
+    <Compile Include="Excel\Palette.cs" />
+    <Compile Include="Excel\Record.cs" />
+    <Compile Include="Excel\RID.cs" />
+    <Compile Include="Excel\Row.cs" />
+    <Compile Include="Excel\RowBlocks.cs" />
+    <Compile Include="Excel\Rows.cs" />
+    <Compile Include="Excel\SharedStringTable.cs" />
+    <Compile Include="Excel\StandardFormats.cs" />
+    <Compile Include="Excel\Style.cs" />
+    <Compile Include="Excel\Styles.cs" />
+    <Compile Include="Excel\TextDirections.cs" />
+    <Compile Include="Excel\TextRotations.cs" />
+    <Compile Include="Excel\UnderlineTypes.cs" />
+    <Compile Include="Excel\UnicodeBytes.cs" />
+    <Compile Include="Excel\Util.cs" />
+    <Compile Include="Excel\VerticalAlignments.cs" />
+    <Compile Include="Excel\Workbook.cs" />
+    <Compile Include="Excel\Worksheet.cs" />
+    <Compile Include="Excel\Worksheets.cs" />
+    <Compile Include="Excel\WorksheetTypes.cs" />
+    <Compile Include="Excel\WorksheetVisibilities.cs" />
+    <Compile Include="Excel\CellFormat.cs" />
+    <Compile Include="Excel\CellFormats.cs" />
+    <Compile Include="Excel\XlsDocument.cs" />
+    <Compile Include="Excel\XlsText.cs" />
+    <Compile Include="Excel\___Demo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

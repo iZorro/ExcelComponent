@@ -1,0 +1,5 @@
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Common\obj\Debug\ExcelComponent.csproj.CoreCompileInputs.cache
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Common\bin\Debug\ExcelComponent.dll
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Common\bin\Debug\ExcelComponent.pdb
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Common\obj\Debug\ExcelComponent.dll
+D:\ZorroVSWork\WorkCode\Excle\SalsNET.Common\obj\Debug\ExcelComponent.pdb
